@@ -42,7 +42,6 @@ const controlSearchResults = async function () {
     recipeView.renderError(err);
   }
 };
-console.log('ITS WORKING')
 const controlPagination = function (goToPage) {
   //Render New Results
   resultsView.render(getSearchResultsPage(goToPage));
